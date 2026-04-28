@@ -4,6 +4,21 @@
   box-sizing: border-box;
   color: white;
 }
+.hd{
+  font-size: 30px;
+  /* text-align: center; */
+}
 body{
- background-color: black;
+  background-color: black;
+ text-align: center;
+}
+.ch1{
+  margin-top: 30px;
+}
+main{margin: auto;
+  width: 50%;
+  height: 400px;
+  background-color: rgba(38, 38, 232, 0.171);
+  border-radius: 30px;
+  box-shadow: inset 50px 10px 100px 1px rgb(254, 254, 245);
 }

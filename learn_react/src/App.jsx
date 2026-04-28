@@ -2,9 +2,15 @@
 
 function App() {
   return (
-    <div>
-      <h1>hello</h1>
-    </div>
+    // thie is  the use for add multi divs  ->   <> </>
+    <> 
+    <section id="perent">
+      <h1 id="ch1" class="ch1">Hello</h1>
+    </section>
+    <section id="ch2" >
+        <p>hello im the peragraph</p>
+    </section>
+    </>
   )
 }
 
