@@ -1,16 +1,20 @@
-
+import Navbar from "./components/navbar"
+import Cards from "./components/card"
+import Header from "./components/Header"
 
 function App() {
   return (
-    // thie is  the use for add multi divs  ->   <> </>
+   
     <> 
-    <section id="perent">
-      <h1 id="ch1" class="ch1">Hello</h1>
-    </section>
-    <section id="ch2" >
-        <p>hello im the peragraph</p>
-    </section>
-    </>
+
+
+   <Header/>
+   <Navbar/>
+   <Cards/>
+  < Cards/>
+  
+    
+   </>
   )
 }
 

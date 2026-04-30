@@ -12,13 +12,29 @@ body{
   background-color: black;
  text-align: center;
 }
-.ch1{
-  margin-top: 30px;
-}
-main{margin: auto;
+
+.card{
+  margin: auto;
+  margin-top: 100px;
   width: 50%;
   height: 400px;
   background-color: rgba(38, 38, 232, 0.171);
   border-radius: 30px;
+  border: 2px dotted red;
   box-shadow: inset 50px 10px 100px 1px rgb(254, 254, 245);
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ 
+}
+.nav{
+  /* width: 80%; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(194, 71, 71);
+  color: black;
+  padding: 2px;
+  /* border-radius: 20px; */
 }
