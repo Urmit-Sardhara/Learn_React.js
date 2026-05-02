@@ -5,7 +5,7 @@
   /* color: white; */
 }
 body{
-  background-color: rgb(243, 243, 158);
+  background: linear-gradient(to right ,black,rgb(102, 102, 102));
   padding: 20px;
   
 }
