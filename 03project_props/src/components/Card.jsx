@@ -1,7 +1,6 @@
-// import React from 'react'
 
 function Card(props) {
-  // console.log(props.company);
+ 
   return (
     <>
      <section className="card">

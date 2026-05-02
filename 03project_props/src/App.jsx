@@ -112,11 +112,10 @@ function App() {
   }
 ];
   return (
-    // console.log(jobOpenings)
     <section className="perent">
   { jobOpenings.map(function(elm){
     return (
-      <>
+      
       <Card 
        company={elm.companyName} 
        post={elm.post} 
@@ -128,7 +127,7 @@ function App() {
        pay={elm.pay}
        />
 
-      </>
+      
     
   )
 })}
