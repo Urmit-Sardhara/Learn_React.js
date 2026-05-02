@@ -1,0 +1,13 @@
+.head{
+    /* width:   ; */
+    background-color: rgb(133, 133, 133);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head button {
+    padding: 8px;
+    border-radius: 10px;
+}
