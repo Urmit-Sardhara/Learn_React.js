@@ -1,9 +1,13 @@
 import Navbar from "./Navbar"
+import style from "./section1.module.css"
 function section01() {
   return (
-    <div>
-      <Navbar/>
-    </div>
+   
+     
+      <section className={style.body}>
+          <Navbar/>
+      </section>
+    
   )
 }
 
