@@ -1,4 +1,4 @@
-import { use } from "react"
+// import { use } from "react"
 import Section01 from "./Components/section01/section01"
 import Section02 from "./Components/section02/section02"
 

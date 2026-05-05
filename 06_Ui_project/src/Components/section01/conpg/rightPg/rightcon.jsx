@@ -4,6 +4,7 @@ function rightcon(props) {
   console.log(props.users);
   
   return (
+    <section className={style.con}> 
     <section className={style.bd}>
      {props.users.map(function(elm ,idx){
 
@@ -15,6 +16,7 @@ function rightcon(props) {
      })}
      
       
+    </section>
     </section>
   )
 }

@@ -1,12 +1,34 @@
-.bd {
-    /* background-color: rgb(180, 183, 180);     */
+.con{
+
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;  
     gap: 30px;
     width: 69%;
-    /* border-radius: 20px; */
     padding: 15px;
     border-radius: 20px;
-    /* overflow: hidden; */
+}
+
+.bd {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    width: max-content; 
+    animation: scroll 10s linear infinite; 
+}
+.con::-webkit-scrollbar {
+    display: none;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* यह आपके कार्ड्स की संख्या पर निर्भर करेगा */
+    }
+}
+
+/* माउस ले जाने पर रुक जाए (Optional) */
+.bd:hover {
+    animation-play-state: paused;
 }
