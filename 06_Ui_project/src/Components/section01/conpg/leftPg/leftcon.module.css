@@ -1,0 +1,28 @@
+.bd{
+    
+    width: 25%;
+    height: 100%;
+    /* margin: 0px 20px; */
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    }
+.bd h2 {
+    font-size: 45px;
+ font-weight: bolder;
+ margin-bottom: 20px;
+ /* padding: 5px ; */
+ /* line-clamp: 10px; */
+ 
+}
+.bd p {
+    word-spacing: 7px;
+    font-size: larger;
+    color: gray;
+    /* word-wrap:break-word  */
+}
+.bd span {
+    background-color: rgba(128, 128, 128, 0.235);
+}

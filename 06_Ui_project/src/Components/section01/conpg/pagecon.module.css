@@ -1,0 +1,7 @@
+.bd{
+    /* background-color: powderblue; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px; 
+}

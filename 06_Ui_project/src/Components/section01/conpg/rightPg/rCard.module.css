@@ -1,0 +1,48 @@
+.bd{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+  
+
+   
+}
+.bd img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ads{
+    position: absolute;
+    /* background-color: yellow; */
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ads h1 {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads p {
+    font-size: larger;
+    line-height: normal;
+}
+.ads button {
+    background-color: rgb(83, 83, 235);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+font-size: large;
+}
