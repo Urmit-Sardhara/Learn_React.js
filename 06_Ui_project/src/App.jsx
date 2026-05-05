@@ -21,6 +21,21 @@ function App() {
       img :"https://images.unsplash.com/photo-1541535881962-3bb380b08458?q=80&w=667&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       intro :"",
       tag :"Underbanked"
+    },
+    {
+      img:"https://images.unsplash.com/photo-1624797432677-6f803a98acb3?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      intro :"",
+      tag :"verycraetive"
+    },
+    {
+      img:"https://images.unsplash.com/photo-1525095182007-3874c4e2b38b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      intro :"",
+      tag :"veryexplorer"
+    },
+     {
+      img:"https://images.unsplash.com/photo-1525095182007-3874c4e2b38b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      intro :"",
+      tag :"veryexplorer"
     }
   ]
   return (

@@ -14,7 +14,7 @@
     flex-wrap: nowrap;
     gap: 30px;
     width: max-content; 
-    animation: scroll 10s linear infinite; 
+    animation: scroll 5s linear infinite; 
 }
 .con::-webkit-scrollbar {
     display: none;
@@ -24,11 +24,11 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%); /* यह आपके कार्ड्स की संख्या पर निर्भर करेगा */
+        transform: translateX(-50%); 
     }
 }
 
-/* माउस ले जाने पर रुक जाए (Optional) */
-.bd:hover {
+
+/* .bd:hover {
     animation-play-state: paused;
-}
+} */

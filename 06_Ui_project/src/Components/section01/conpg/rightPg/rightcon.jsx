@@ -5,7 +5,7 @@ function rightcon(props) {
   
   return (
     <section className={style.con}> 
-    <section className={style.bd}>
+    <section className={style.bd} id="rigth">
      {props.users.map(function(elm ,idx){
 
         return(
