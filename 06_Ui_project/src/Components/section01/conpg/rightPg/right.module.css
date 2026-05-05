@@ -1,6 +1,12 @@
 .bd {
-    background-color: rgb(180, 183, 180);
+    /* background-color: rgb(180, 183, 180);     */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;  
+    gap: 30px;
     width: 69%;
     /* border-radius: 20px; */
     padding: 15px;
+    border-radius: 20px;
+    /* overflow: hidden; */
 }
