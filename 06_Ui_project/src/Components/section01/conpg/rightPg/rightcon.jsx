@@ -5,13 +5,14 @@ function rightcon(props) {
   
   return (
     <section className={style.con}> 
-    <section className={style.bd} id="rigth">
+    <section className={style.bd}>
      {props.users.map(function(elm ,idx){
 
         return(
-
+          <>
           <RightCCont id={idx} img={elm.img} tag ={elm.tag} />
-
+        
+          </>
         )
      })}
      

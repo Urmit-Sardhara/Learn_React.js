@@ -1,4 +1,14 @@
 .body {
     background-color: pink;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body h1{
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 20px 2px black;
 }
