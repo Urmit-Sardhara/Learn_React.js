@@ -3,13 +3,12 @@ import { useState } from "react"
 function App() {
   const [num, setnum] = useState({name:"urmit",age:19})
   const change=()=>{       
-    // setnum(...num)
-    console.log(num.name);
-    console.log(num.age);
-    
-    
+    const newnum={...num}   // thiis use for chane valu in obj or arr 
+    newnum.name="king"
+    newnum.age=20
+    setnum (newnum)
 
-
+    
 
 
    }
