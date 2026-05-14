@@ -1,0 +1,25 @@
+*{
+  margin: 0%;  
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: powderblue;
+}
+.main {
+  width: 50%;
+  /* background-color: red; */
+  padding: 10px;
+  margin: auto;
+}
+input, button {
+  color: rgb(255, 0, 0);
+  display: block;
+  margin: auto;
+  
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 0px 0px 10px 1px rgb(10, 10, 10);
+}
